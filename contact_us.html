@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Travel Recommendation</h1>
+        <ul>
+            <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+            <li><a href="./about_us.html" id="contact">About Us </a></li>
+            <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
+            <!-- <li><input type="text" id="searchInput" placeholder="Enter a destinationkeyword"> </li> -->
+            <!-- <li><button id='btnSearch'>Search</button> -->
+            <!-- <li><button id='btnClear'>Clear</button> -->
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <br>
+        <h1>Contact US</h1>
+        <p>Get in touch</p>
+
+    </div>
+
+    <div class="contactUsForm">
+
+        <form id="contactForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+            </div>
+            <div>
+                <label for="email">Email  : </label>
+                <input type="email" id="email" name="email" required>
+                <br>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <br>
+            </div>
+            <button type="submit" onclick="thankyou()">Submit</button>
+        </form>
+
+    </div>
+
+    <script>
+        function thankyou() {
+            alert('Thank you for contacting us!')
+        }
+    </script>
+</body>
+</html>

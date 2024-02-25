@@ -1,0 +1,103 @@
+/* Basic CSS for the navigation bar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Basic CSS for the form elements */
+body {
+    background: url(".\\image\\background_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+
+/* h1 {
+    margin-bottom: 20px;
+}
+ */
+/* div {
+    margin-bottom: 50px;
+}
+ */
+button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Basic CSS for the result section */
+h2 {
+    margin-top: 0px; 
+}
+
+#result {
+    margin-left: 400px;
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    /* color: white; */
+    
+}
+
+#result img {
+    /* margin-left: 100px; */
+    width: 200px;
+    height: 100px;
+}
+
+.contactUsForm {
+    margin-left: 400px;
+    padding: 20px;
+    /* max-width: 400px; */
+    /* word-wrap: break-word; */
+    height: 200px;
+    width: 300px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    background-color: orange;
+    
+}
+
